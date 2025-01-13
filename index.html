@@ -66,7 +66,7 @@
 
 <header class="container-element editable-style silex-id-1541604358717-1 section-element prevent-resizable hide-on-desktop"><div class="editable-style silex-id-1541604358715-0 container-element silex-element-content website-width fixed"><div class="editable-style silex-id-1552778542386-4 text-element silex-component prevent-resizable hide-on-desktop nav-text prevent-auto-z-index"><div class="silex-element-content normal">
 <!-- inspired by https://codepen.io/erikterwan/pen/EVzeRP -->
-<div class="hamburger-menu_1736767979859_830 closed">
+<div class="hamburger-menu_1736780775535_119 closed">
     <div class="hamburger-btn ">
       <span></span>
       <span></span>
@@ -95,13 +95,13 @@
   var isOpen = false;
   function close() {
     isOpen = false;
-    document.querySelector('.hamburger-menu_1736767979859_830').classList.remove('open');
-    document.querySelector('.hamburger-menu_1736767979859_830').classList.add('closed');
+    document.querySelector('.hamburger-menu_1736780775535_119').classList.remove('open');
+    document.querySelector('.hamburger-menu_1736780775535_119').classList.add('closed');
   }
   function open() {
     isOpen = true;
-    document.querySelector('.hamburger-menu_1736767979859_830').classList.add('open');
-    document.querySelector('.hamburger-menu_1736767979859_830').classList.remove('closed');
+    document.querySelector('.hamburger-menu_1736780775535_119').classList.add('open');
+    document.querySelector('.hamburger-menu_1736780775535_119').classList.remove('closed');
   }
   function toggle() {
     if(isOpen) close();
@@ -111,7 +111,7 @@
     close();
     move();
   }
-  var silexElement = document.querySelector('.hamburger-menu_1736767979859_830').closest('.editable-style');
+  var silexElement = document.querySelector('.hamburger-menu_1736780775535_119').closest('.editable-style');
   function move() {
     var data = window.silex
     var rect = silexElement.getBoundingClientRect();
@@ -119,65 +119,28 @@
       top: rect.top + data.scrollTop,
       left: rect.left + data.scrollLeft,
     };
-    var container = document.querySelector('.hamburger-menu_1736767979859_830 .nav-container');
+    var container = document.querySelector('.hamburger-menu_1736780775535_119 .nav-container');
     container.style.transform = 'translate(' + (data.scrollLeft - (offset.left/data.scale)) + 'px, ' + (data.scrollTop - (offset.top/data.scale)) + 'px)';
   }
-  document.querySelector('.hamburger-menu_1736767979859_830 .hamburger-btn').addEventListener('click', function() { toggle(); });
+  document.querySelector('.hamburger-menu_1736780775535_119 .hamburger-btn').addEventListener('click', function() { toggle(); });
   document.addEventListener('resize', scrollOrResize);
   document.addEventListener('scroll', scrollOrResize);
   scrollOrResize()
   setTimeout(() => scrollOrResize(), 0)
 })();
 </script>
-</div></div><div class="editable-style html-element silex-id-1552779510769-9"><div class="silex-element-content"></div></div></div></header><header class="editable-style silex-id-1521479714244-27 container-element hide-on-mobile fixed full-width"><nav class="editable-style silex-id-1521479343575-26 text-element nav-text anchor-container"><div class="silex-element-content normal"><a href="#home"></a><p><a href="#home" download="">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#portfolio" download="">Portfolio</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#about">About</a><a href="#home"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#contact">Contact</a></p></div></nav></header><div class="editable-style container-element silex-id-1594629477704-3 page-page-home full-width full-height page-home paged-element paged-element-visible"><div class="editable-style container-element silex-id-1594629796767-5 half-width" id="home"><div class="editable-style silex-id-1521474810651-10 text-element hero-text"><div class="silex-element-content normal"><p></p><p>Bonjour<br></p><p>Je suis Josephine Fieloux, étudiante en communication, des idées pleins la tête, venez découvrir ici quelques-unes de mes réalisations . N'hésitez pas à me contacter pour toute collaboration !</p><h1><br></h1></div></div><div class="editable-style container-element silex-id-1736773616369-4"><div class="editable-style text-element silex-id-1736773385403-3 footer-text"><div class="silex-element-content normal"><h1>Portfolio&nbsp;</h1></div></div></div></div><div class="editable-style image-element silex-id-1736772359689-2"><img src="assets/photo%20cv.jpeg"></div></div><section class="container-element editable-style silex-id-1474394621033-3 section-element sub-title portfolio prevent-resizable">
+</div></div><div class="editable-style html-element silex-id-1552779510769-9"><div class="silex-element-content"></div></div></div></header><header class="editable-style silex-id-1521479714244-27 container-element hide-on-mobile fixed full-width"><nav class="editable-style silex-id-1521479343575-26 text-element nav-text anchor-container"><div class="silex-element-content normal"><a href="#home"></a><p><a href="#home" download="">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#portfolio" download="">Portfolio</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#about">About</a><a href="#home"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#contact">Contact</a></p></div></nav></header><div class="editable-style container-element silex-id-1594629477704-3 page-page-home full-width full-height page-home paged-element paged-element-visible"><div class="editable-style container-element silex-id-1594629796767-5 half-width" id="home"><div class="editable-style silex-id-1521474810651-10 text-element hero-text"><div class="silex-element-content normal"><p><i>&nbsp;</i>Bienvenue dans mon portfolio, venez découvrir ici quelques-unes de mes réalisations . N'hésitez pas à me contacter pour toute collaboration !<br></p></div></div><div class="editable-style container-element silex-id-1736773616369-4"><div class="editable-style text-element silex-id-1736773385403-3 footer-text"><div class="silex-element-content normal"><h1>Portfolio&nbsp;</h1></div></div></div></div><div class="editable-style image-element silex-id-1736772359689-2"><img src="assets/photo%20cv.jpeg"></div></div><section class="container-element editable-style silex-id-1474394621033-3 section-element sub-title portfolio prevent-resizable">
         
-    <div class="editable-style silex-element-content silex-id-1474394621032-2 container-element website-width" id="portfolio"><div class="editable-style silex-id-1521476552196-1 text-element section-text"><div class="silex-element-content normal"><b></b><h2><b>01</b>&nbsp;Mes projets&nbsp;<br></h2><span class="_wysihtml-temp-caret-fix" style="position: absolute; display: block; min-width: 1px; z-index: 99999;">﻿</span></div></div></div></section><div class="container-element editable-style section-element silex-id-1521477017540-4 prevent-resizable">
+    <div class="editable-style silex-element-content silex-id-1474394621032-2 container-element website-width" id="portfolio"><div class="editable-style silex-id-1521476552196-1 text-element section-text"><div class="silex-element-content normal"><b></b><h1>&nbsp;Mes projets&nbsp;</h1></div></div></div></section><div class="container-element editable-style section-element silex-id-1521477017540-4 prevent-resizable">
         
     <div class="editable-style silex-element-content container-element website-width silex-id-1521477017540-5">
 
             
-        <div class="editable-style image-element silex-id-1736775201386-7 page-home paged-element paged-element-visible"><img src="assets/dumbledore.jpeg"></div></div></div><div class="container-element editable-style section-element silex-id-1521477258858-7 prevent-resizable">
-        <div class="editable-style silex-element-content container-element website-width silex-id-1521477258858-8">
+        <div class="editable-style image-element silex-id-1736775201386-7 page-home paged-element paged-element-visible"><img src="assets/dumbledore.jpeg"></div><div class="editable-style text-element silex-id-1736778977651-2 page-home paged-element paged-element-visible"><div class="silex-element-content normal"><p>En parallèle de ma première année de licence de Droit, j'ai suivi les enseignements au Collège de Droit et pour valider le diplôme universitaire nous avons du organiser et mettre en scène le procès du personnage fictif Albus Dumbledore. Avec mon équipe nous étions les avocats de La Défense. Une belle façon d'apprendre de manière ludique !&nbsp;&nbsp;</p></div></div><div class="editable-style text-element silex-id-1736779617234-7 page-home paged-element paged-element-visible"><div class="silex-element-content normal"><h3>Procès de Dumbledore<br></h3></div></div></div></div><div class="container-element editable-style section-element silex-id-1521477258858-7 prevent-resizable">
+        
+    <div class="editable-style silex-element-content container-element website-width silex-id-1521477258858-8">
 
             
-        <div class="editable-style image-element silex-id-1736775000973-5 page-home paged-element paged-element-visible"><img src="https://images.unsplash.com/photo-1522158637959-30385a09e0da?ixid=M3wzNDc5fDB8MXxzZWFyY2h8Mnx8Y29uY2VydHxlbnwwfHx8fDE3MzY3NzQ5ODJ8MA&amp;ixlib=rb-4.0.3&amp;fm=jpg&amp;q=80&amp;w=255&amp;fit=max"></div><div class="editable-style text-element silex-id-1736776005487-12 page-home paged-element paged-element-visible"><div class="silex-element-content normal"><p>New text box</p></div></div></div>
-    </div><div class="container-element editable-style silex-id-1521478596443-18 section-element hide-on-mobile prevent-resizable"><div class="editable-style silex-id-1521478596441-17 container-element silex-element-content website-width"><div class="editable-style image-element silex-id-1736775044080-6 page-home paged-element paged-element-visible"><img src="assets/concert.jpeg"></div></div></div><section class="container-element editable-style section-element silex-id-1521478456708-14 sub-title about prevent-resizable">
+        <div class="editable-style image-element silex-id-1736779227624-5 page-home paged-element paged-element-visible"><img src="assets/memoire%201.png"></div><div class="editable-style text-element silex-id-1736779204724-3 page-home paged-element paged-element-visible"><div class="silex-element-content normal"><p>Dans le cadre de mon master 1 en Information-Communication, j'ai fait un devoir de recherche sur la médiatisation des troubles du comportement alimentaire. Des maladies encore aujourd'hui trop méconnues et victimes de désinformation. &nbsp;</p><span class="_wysihtml-temp-caret-fix" style="position: absolute; display: block; min-width: 1px; z-index: 99999;">﻿</span></div></div></div><div class="editable-style text-element silex-id-1736779695265-8 page-home paged-element paged-element-visible"><div class="silex-element-content normal"><h3>Mémoire de recherche</h3></div></div></div><div class="container-element editable-style silex-id-1521478596443-18 section-element hide-on-mobile prevent-resizable"><div class="editable-style silex-id-1521478596441-17 container-element silex-element-content website-width"><div class="editable-style image-element silex-id-1736778871288-1 page-home paged-element paged-element-visible"><img src="assets/livre%201.jpeg"></div><div class="editable-style text-element silex-id-1736779206730-4 page-home paged-element paged-element-visible"><div class="silex-element-content normal"><p>Passionnée d'écriture depuis l'école primaire, j'ai appris les différentes techniques d'écriture dans l'objectif de publier mon roman dans les prochaines années. Un projet qui demande beaucoup de temps et d'investissement mais dont j'ai hâte la concrétisation !</p></div></div><div class="editable-style text-element silex-id-1736779697109-9 page-home paged-element paged-element-visible"><div class="silex-element-content normal"><h3>Projet d'écriture&nbsp;</h3></div></div></div></div><section class="container-element editable-style section-element silex-id-1521478456708-14 sub-title about prevent-resizable">
         
-    <div class="editable-style silex-element-content container-element silex-id-1521478456709-15 website-width" id="about"><div class="editable-style text-element silex-id-1521478456709-16 section-text"><div class="silex-element-content normal"><b></b><h2><b>02</b> About</h2></div></div></div></section><div class="container-element editable-style section-element silex-id-1521478616966-19 quote prevent-resizable"><div class="editable-style container-element silex-element-content website-width silex-id-1521478616966-20"><div class="editable-style silex-id-1521478620188-21 text-element section-text"><div class="silex-element-content normal"><p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br></p><p>Vestibulum quis
- volutpat nunc, nec volutpat nunc. In ullamcorper purus vitae felis 
-dignissim, at porta ex dignissim. Morbi scelerisque pellentesque 
-hendrerit. <br></p></div></div></div></div><section class="container-element editable-style section-element silex-id-1521493080946-1 prevent-resizable sub-title about contact invert" id="contact">
-        
-    <div class="editable-style silex-element-content container-element website-width silex-id-1521493080946-2"><div class="editable-style text-element silex-id-1521493080946-3 section-text"><div class="silex-element-content normal"><a href="#"><b></b></a><h2><b>03</b> Contact</h2></div></div></div></section><div class="container-element editable-style section-element silex-id-1521479057591-23 prevent-resizable invert hero"><div class="editable-style container-element silex-element-content silex-id-1521479057592-24 website-width full-height"><div class="editable-style silex-id-1521479113100-25 html-element silex-component silex-use-height-not-minheight silex-component-form"><div class="silex-element-content"><form id="id_1736767979859_937" action="https://formspree.io/your@email.com" method="POST">
-  
-  <div>
-    <label for="field1">Name</label>
-    <input type="text" required="" id="field1" name="field1" placeholder="Your name">
-  </div>
-  
-  
-  <div>
-    <label for="field2">Your email adress</label>
-    <input type="text" required="" id="field2" name="field2" placeholder="your@email.com">
-  </div>
-  
-  
-  <div class="fill-vertical">
-    <label for="field3">Your message</label>
-    <textarea required="" id="field3" name="field3" placeholder="What you have to say"></textarea>
-  </div>
-  
-  <input type="submit" value="Send">
-</form>
-
-
-</div></div></div></div><footer class="container-element editable-style silex-id-1478366450713-3 section-element invert prevent-resizable">
-        <div class="editable-style silex-element-content silex-id-1478366450713-2 container-element website-width">
-
-            
-        <div class="editable-style silex-id-1442914737143-3 text-element footer-text">
-                <div class="silex-element-content normal"><p><a href="https://www.silex.me/">Powered by Silex</a></p><p></p><p>Pictures from <a href="https://unsplash.com">unsplash.com</a></p>
-                </div>
-            </div></div>
-    </footer></body></html>
+    <div class="editable-style silex-element-content container-element silex-id-1521478456709-15 website-width" id="about"><div class="editable-style text-element silex-id-1521478456709-16 section-text"><div class="silex-element-content normal"><b></b><h1>&nbsp;More about me</h1></div></div><div class="editable-style text-element silex-id-1736780865176-1 page-home paged-element paged-element-visible"><div class="silex-element-content normal"><p></p><ul><li><b><i>Accor,</i></b> Alternante Global corporate communication</li><li><b><i>Agence Com'Over</i></b>, Stagiaire Relations presses et influenceStagiaire Relations presses et influence·<br></li><li><i><b>RD AVOCATS &amp; ASSOCIES,</b></i>Cabinet d'avocats<br></li><li><b><i>Assemblée nationale,</i></b>Stagiaire chez un Député<br></li></ul><p></p><span class="_wysihtml-temp-caret-fix" style="position: absolute; display: block; min-width: 1px; z-index: 99999;">﻿</span></div></div><div class="editable-style text-element silex-id-1736781062984-2 page-home paged-element paged-element-visible"><div class="silex-element-content normal"><p><i>Stages et alternance</i></p></div></div><div class="editable-style text-element silex-id-1736780780770-0 page-home paged-element paged-element-visible"><div class="silex-element-content normal"><h3><u>Expériences professionnelles</u></h3><span class="_wysihtml-temp-caret-fix" style="position: absolute; display: block; min-width: 1px; z-index: 99999;">﻿</span></div></div><div class="editable-style image-element silex-id-1736781294435-3 page-home paged-element paged-element-visible"><img src="assets/droit.jpeg"></div><div class="editable-style text-element silex-id-1736780177724-0 page-home paged-element paged-element-visible"><div class="silex-element-content normal"><p>Etudiante en Master II Information et Communication parcours média et mondialisation à l'Université Paris Assas, je suis également en alternance chez Accor dans l'équipe Image &amp; Influence en Corporate communication.<br></p><p>Etant diplômée d'une Licence de Droit et ayant suivi un master 1 Droit des affaires et Propriété Intellectuelle, j'ai un profil originale et c'est un atout pour me démarquer dans le secteur de la communication.    </p></div></div><div class="editable-style image-element silex-id-1736781431238-4 page-home paged-element paged-element-visible"><img src="assets/communication.png"></div></div></section><div class="container-element editable-style section-element silex-id-1521478616966-19 quote prevent-resizable"><div class="editable-style container-element silex-element-content website-width silex-id-1521478616966-20"><div class="editable-style text-element silex-id-1736781808795-9 page-home paged-element paged-element-visible"><div class="silex-element-content normal"><h2><b><i>POUR PLUS D'INFORMATIONS CONTACTEZ MOI SUR MES DIFFERENTS RESEAUX !</i></b></h2></div>﻿﻿</div><div class="editable-style image-element silex-id-1736782184627-12 page-home paged-element paged-element-visible"><img src="assets/gmail.png"></div><div class="editable-style text-element silex-id-1736782088154-11 page-home paged-element paged-element-visible"><div class="silex-element-content normal"><h2>mail: fieloux.josephine@gmail.com<br></h2></div></div><a class="editable-style text-element silex-id-1736781971147-10 page-home paged-element paged-element-visible" href="https://www.linkedin.com/in/josephine-fieloux-b1b65724b/details/experience/"><div class="silex-element-content normal"><h2>Linkedin : Joséphine Fieloux&nbsp;<br></h2></div></a><div class="editable-style image-element silex-id-1736782232875-13 page-home paged-element paged-element-visible"><img src="assets/linkdin.png"></div></div><div class="editable-style text-element silex-id-1736781685667-6 page-home paged-element section-text paged-element-visible" title=""><div class="silex-element-content normal"><b></b><h1>&nbsp;CONTACT</h1></div></div></div></body></html>
